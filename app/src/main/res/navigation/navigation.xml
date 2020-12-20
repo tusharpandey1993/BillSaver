@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/SplashFragment">
+
+    <fragment
+        android:id="@+id/SplashFragment"
+        android:name="com.debugged.warrantysaver.frags.SplashFragment"
+        android:label="Splash Fragment"
+        tools:layout="@layout/splash">
+        <!--<action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/LoginFragment" />
+
+        <actiona
+            android:id="@+id/action_OtpFragment_to_SuccessFragment"
+            app:destination="@id/SuccessFragment" />-->
+    </fragment>
+
+    <!--<fragment
+        android:id="@+id/LoginFragment"
+        android:name="com.mlmnote.app.fragments.LoginFragment"
+        android:label="Login Fragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_otpFragment"
+            app:destination="@id/OtpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/RegisterFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/OtpFragment"
+        android:name="com.mlmnote.app.fragments.OtpFragment"
+        android:label="Otp Fragment"
+        tools:layout="@layout/fragment_otp">
+        <action
+            android:id="@+id/action_otpFragment_to_LoginFragment"
+            app:popUpTo="@+id/LoginFragment" />
+        <action
+            android:id="@+id/action_OtpFragment_to_SuccessFragment"
+            app:destination="@id/SuccessFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/RegisterFragment"
+        android:name="com.mlmnote.app.fragments.RegisterFragment"
+        android:label="Register Fragment"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_RegisterFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" />
+        <action
+            android:id="@+id/action_RegisterFragment_to_SuccessFragment"
+            app:destination="@id/SuccessFragment" />
+    </fragment>-->
+</navigation>

@@ -1,2 +1,2 @@
 rootProject.name = "WarrantySaver"
-include ':app'
+include ':app',':library'
